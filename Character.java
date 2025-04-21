@@ -8,13 +8,15 @@ public class Character {
 
     /**
      * Default constructor for the Character class.
-     * Initializes a character without a name.
+     * Initializes a character with an empty name.
      */
-    public Character() {}
+    public Character() {
+        this.name = ""; // Initialize name to an empty string
+    }
 
     /**
      * Constructor for the Character class with a specified name.
-     * 
+     *
      * @param name The name to be assigned to the character.
      */
     public Character(String name) {
@@ -23,7 +25,7 @@ public class Character {
 
     /**
      * Gets the name of the character.
-     * 
+     *
      * @return The name of the character.
      */
     public String getName() {
@@ -32,7 +34,7 @@ public class Character {
 
     /**
      * Sets the name of the character.
-     * 
+     *
      * @param name The new name to be assigned to the character.
      */
     public void setName(String name) {

@@ -94,6 +94,6 @@ This project demonstrates object-oriented programming concepts including:
 - Command processing
 - User interaction
 
-## Author
+## Authors
 
-Created by Evan Phillips
+Developed by Evan Phillips, and Patrick Li
